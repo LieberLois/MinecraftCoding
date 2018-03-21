@@ -1,0 +1,13 @@
+ name: LoisPlugin
+ version: 1.0.0
+ description: This plugin is for saving chests.
+ author: Loyus
+ main: de.lois.plugin.main.Main
+
+ commands:
+     chests:
+          description: Saves all chests.
+     backpack:
+          description: Opens your backpack.
+
+

@@ -1,0 +1,22 @@
+version: 0
+sg-system:
+  arenano: 0
+  arenas:
+    '1':
+      world: world
+      x1: -587
+      y1: 4
+      z1: -1635
+      x2: -827
+      y2: 4
+      z2: -1875
+      enabled: false
+    '2':
+      world: world
+      x1: -587
+      y1: 204
+      z1: -1635
+      x2: -827
+      y2: 0
+      z2: -1875
+      enabled: false

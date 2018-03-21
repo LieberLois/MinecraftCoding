@@ -1,0 +1,20 @@
+ name: Warps
+ version: 1.0.0
+ description: This plugin adds a warp utility.
+ author: LieberLois
+ main: de.lois.warps.Main
+
+ commands:
+     warp:
+          description: Interacts with warps.
+          usage: /warp [ list | add | remove | "Name of existing warp" ]
+
+ permissions:
+     warps.setwarp:
+          description: Creates a warp point.
+     warps.delwarp:
+          description: Removes a warp point.
+     warps.warp:
+          description: Warp to a warp point.
+     warps.list:
+          description: Lists all available warps.

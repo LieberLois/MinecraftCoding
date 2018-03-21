@@ -1,0 +1,41 @@
+[21:30:20] [Server thread/INFO]: Starting minecraft server version 1.12.2
+[21:30:20] [Server thread/INFO]: Loading properties
+[21:30:20] [Server thread/INFO]: Default game type: CREATIVE
+[21:30:20] [Server thread/INFO]: Generating keypair
+[21:30:20] [Server thread/INFO]: Starting Minecraft server on 94.250.217.247:25565
+[21:30:21] [Server thread/INFO]: Using epoll channel type
+[21:30:21] [Server thread/INFO]: This server is running CraftBukkit version git-Bukkit-f46ccd7 (MC: 1.12.2) (Implementing API version 1.12.2-R0.1-SNAPSHOT)
+[21:30:21] [Server thread/INFO]: [WorldEdit] Loading WorldEdit v6.1.8-SNAPSHOT;cd4729f
+[21:30:21] [Server thread/INFO]: [SurvivalGames] Loading SurvivalGames v0.6.6
+[21:30:21] [Server thread/INFO]: [LoisPlugin] Loading LoisPlugin v1.0.0
+[21:30:21] [Server thread/INFO]: [Multiverse-Core] Loading Multiverse-Core v2.5.0-b727
+[21:30:21] [Server thread/INFO]: [Multiverse-Portals] Loading Multiverse-Portals v2.5.0-b751
+[21:30:21] [Server thread/INFO]: Preparing level "world"
+[21:30:22] [Server thread/INFO]: Preparing start region for level 0 (Seed: -106912448124431190)
+[21:30:22] [Server thread/INFO]: Preparing start region for level 1 (Seed: 5038995416854293086)
+[21:30:23] [Server thread/INFO]: Preparing start region for level 2 (Seed: 5038995416854293086)
+[21:30:24] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v6.1.8-SNAPSHOT;cd4729f
+[21:30:24] [Server thread/INFO]: WEPIF: Using the Bukkit Permissions API.
+[21:30:24] [Server thread/INFO]: [WorldEdit] Using com.sk89q.worldedit.bukkit.adapter.impl.Spigot_v1_12_R2 as the Bukkit adapter
+[21:30:24] [Server thread/INFO]: [SurvivalGames] Enabling SurvivalGames v0.6.6
+[21:30:24] [Server thread/INFO]: [LoisPlugin] Enabling LoisPlugin v1.0.0
+[21:30:24] [Server thread/INFO]: [LoisPlugin] Plugin geladen!
+[21:30:24] [Server thread/INFO]: [Multiverse-Core] Enabling Multiverse-Core v2.5.0-b727
+[21:30:25] [Server thread/INFO]: Preparing start region for level 3 (Seed: 27594263)
+[21:30:26] [Server thread/INFO]: Preparing start region for level 4 (Seed: 1997237312439430329)
+[21:30:28] [Server thread/INFO]: Preparing start region for level 5 (Seed: 8331928580824685685)
+[21:30:29] [Server thread/INFO]: Preparing spawn area for Winterdorf, 69%
+[21:30:29] [Server thread/INFO]: [Multiverse-Core] 6 - World(s) loaded.
+[21:30:30] [Server thread/INFO]: [Multiverse-Core] Version 2.5.0-b727 (API v20) Enabled - By Rigby, fernferret, lithium3141, main-- and dumptruckman
+[21:30:30] [Server thread/INFO]: [Multiverse-Portals] Enabling Multiverse-Portals v2.5.0-b751
+[21:30:30] [Server thread/INFO]: [Multiverse-Portals] - Version 2.5.0-b751 Enabled - By Rigby and fernferret
+[21:30:31] [Server thread/INFO]: [MVPLogging] 4 - Portals(s) loaded
+[21:30:31] [Server thread/INFO]: [Multiverse-Portals] Found WorldEdit. Using it for selections.
+[21:30:31] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[21:30:32] [Server thread/INFO]: Done (11.437s)! For help, type "help" or "?"
+[21:30:32] [Server thread/INFO]: Starting GS4 status listener
+[21:30:32] [Query Listener #1/INFO]: Query running on 94.250.217.247:25565
+[21:30:34] [Server thread/INFO]: ItemStack{NETHER_STAR x 1}
+[21:30:34] [Server thread/INFO]: sharpness:4
+[21:30:34] [Server thread/INFO]: ItemStack{PAPER x 1}
+[21:30:34] [Server thread/INFO]: fire:2

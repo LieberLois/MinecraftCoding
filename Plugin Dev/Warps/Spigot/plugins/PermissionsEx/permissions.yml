@@ -1,0 +1,39 @@
+groups:
+  Guest:
+    build: false
+    permissions:
+    - warps.list
+    options:
+      prefix: '[Guest] '
+      default: true
+  Mod:
+    inheritance:
+    - VIP
+    - Member
+    - Guest
+    build: true
+    permissions:
+    - warps.warp
+    options:
+      prefix: '&1[&9Mod&1]&f '
+      default: false
+  Admin:
+    inheritance:
+    - Mod
+    - VIP
+    - Member
+    - Guest
+    build: true
+    permissions:
+    - warps.setwarp
+    - warps.delwarp
+    options:
+      prefix: '&9[&bAdmin&9]&f '
+      default: false
+schema-version: 1
+users:
+  f7cca8b5-510d-45a0-81f5-5654c7dc0b90:
+    options:
+      name: Lois_Bois
+    group:
+    - Admin

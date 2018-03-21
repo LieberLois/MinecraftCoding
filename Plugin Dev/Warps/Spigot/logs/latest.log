@@ -1,0 +1,86 @@
+[19:42:54] [Server thread/INFO]: Loading properties
+[19:42:54] [Server thread/INFO]: Default game type: SURVIVAL
+[19:42:54] [Server thread/INFO]: Generating keypair
+[19:42:54] [Server thread/INFO]: Starting Minecraft server on *:25565
+[19:42:54] [Server thread/INFO]: Using default channel type
+[19:42:55] [Server thread/INFO]: This server is running CraftBukkit version git-Bukkit-53fccdf (MC: 1.12.2) (Implementing API version 1.12.2-R0.1-SNAPSHOT)
+[19:42:55] [Server thread/INFO]: [PermissionsEx] Loading PermissionsEx v1.23.4
+[19:42:55] [Server thread/INFO]: [Warps] Loading Warps v1.0.0
+[19:42:55] [Server thread/INFO]: Preparing level "world"
+[19:42:56] [Server thread/INFO]: Preparing start region for level 0 (Seed: -4063063898493559313)
+[19:42:57] [Server thread/INFO]: Preparing spawn area: 19%
+[19:42:57] [Server thread/INFO]: Preparing start region for level 1 (Seed: -4063063898493559313)
+[19:42:58] [Server thread/INFO]: Preparing spawn area: 96%
+[19:42:58] [Server thread/INFO]: Preparing start region for level 2 (Seed: -4063063898493559313)
+[19:42:59] [Server thread/INFO]: [PermissionsEx] Enabling PermissionsEx v1.23.4
+[19:42:59] [Server thread/INFO]: [PermissionsEx] Initializing file backend
+[19:42:59] [Server thread/INFO]: [PermissionsEx] Permissions file successfully reloaded
+[19:42:59] [Server thread/INFO]: [Warps] Enabling Warps v1.0.0
+[19:42:59] [Server thread/INFO]: [Warps]: Plugin geladen!
+[19:42:59] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[19:42:59] [Server thread/INFO]: Done (3,927s)! For help, type "help" or "?"
+[19:43:13] [User Authenticator #1/INFO]: UUID of player Lois_Bois is f7cca8b5-510d-45a0-81f5-5654c7dc0b90
+[19:43:13] [Server thread/INFO]: Lois_Bois[/127.0.0.1:55719] logged in with entity id 132 at ([world]-105.76413519344548, 82.11933192432483, 27.976815697095844)
+[19:43:20] [Server thread/INFO]: Lois_Bois issued server command: /setwarp
+[19:43:23] [Server thread/INFO]: Lois_Bois issued server command: /warp list
+[19:43:30] [Server thread/INFO]: Lois_Bois issued server command: /warp Test
+[19:43:34] [Server thread/INFO]: Lois_Bois issued server command: /warp remove Test
+[19:43:43] [Server thread/INFO]: Lois_Bois issued server command: /warp remove Test
+[19:43:59] [Server thread/INFO]: Lois_Bois issued server command: /help warps
+[19:44:04] [Server thread/INFO]: Lois_Bois issued server command: /warp
+[19:44:14] [Server thread/INFO]: Lois_Bois issued server command: /warp add Loyus
+[19:44:18] [Server thread/INFO]: Lois_Bois issued server command: /warp Loyus
+[19:44:21] [Server thread/INFO]: Lois_Bois issued server command: /warp remove Loyus
+[19:45:05] [Server thread/INFO]: Lois_Bois issued server command: /rl
+[19:45:09] [Server thread/INFO]: CONSOLE: [0;31;1mPlease note that this command is not supported and may cause issues when using some plugins.[m
+[19:45:09] [Server thread/INFO]: CONSOLE: [0;31;1mIf you encounter any issues please use the /stop command to restart your server.[m
+[19:45:09] [Server thread/INFO]: [Warps] Disabling Warps v1.0.0
+[19:45:09] [Server thread/INFO]: [Warps]: Plugin gestoppt!
+[19:45:09] [Server thread/INFO]: [PermissionsEx] Disabling PermissionsEx v1.23.4
+[19:45:10] [Server thread/INFO]: [PermissionsEx] Loading PermissionsEx v1.23.4
+[19:45:10] [Server thread/INFO]: [Warps] Loading Warps v1.0.0
+[19:45:10] [Server thread/INFO]: [PermissionsEx] Enabling PermissionsEx v1.23.4
+[19:45:10] [Server thread/INFO]: [PermissionsEx] Initializing file backend
+[19:45:10] [Server thread/INFO]: [PermissionsEx] Permissions file successfully reloaded
+[19:45:10] [Server thread/INFO]: [Warps] Enabling Warps v1.0.0
+[19:45:10] [Server thread/INFO]: [Warps]: Plugin geladen!
+[19:45:10] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[19:45:10] [Server thread/INFO]: CONSOLE: [0;32;1mReload complete.[m
+[19:45:15] [Server thread/INFO]: Lois_Bois issued server command: /warp
+[19:45:18] [Server thread/INFO]: Lois_Bois issued server command: /warp remove Test
+[19:45:23] [Server thread/INFO]: Lois_Bois issued server command: /warp LisT
+[19:45:32] [Server thread/INFO]: Lois_Bois issued server command: /warp remove Test
+[19:45:33] [Server thread/INFO]: Lois_Bois issued server command: /warp LisT
+[19:45:49] [Server thread/INFO]: CONSOLE: [0;31;1mPlease note that this command is not supported and may cause issues when using some plugins.[m
+[19:45:49] [Server thread/INFO]: CONSOLE: [0;31;1mIf you encounter any issues please use the /stop command to restart your server.[m
+[19:45:49] [Server thread/INFO]: [Warps] Disabling Warps v1.0.0
+[19:45:49] [Server thread/INFO]: [Warps]: Plugin gestoppt!
+[19:45:49] [Server thread/INFO]: [PermissionsEx] Disabling PermissionsEx v1.23.4
+[19:45:49] [Server thread/INFO]: [PermissionsEx] Loading PermissionsEx v1.23.4
+[19:45:49] [Server thread/INFO]: [Warps] Loading Warps v1.0.0
+[19:45:49] [Server thread/INFO]: [PermissionsEx] Enabling PermissionsEx v1.23.4
+[19:45:49] [Server thread/INFO]: [PermissionsEx] Initializing file backend
+[19:45:49] [Server thread/INFO]: [PermissionsEx] Permissions file successfully reloaded
+[19:45:49] [Server thread/INFO]: [Warps] Enabling Warps v1.0.0
+[19:45:49] [Server thread/INFO]: [Warps]: Plugin geladen!
+[19:45:49] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[19:45:50] [Server thread/INFO]: CONSOLE: [0;32;1mReload complete.[m
+[19:45:53] [Server thread/INFO]: Lois_Bois issued server command: /warp list
+[19:45:54] [Server thread/INFO]: Lois_Bois issued server command: /warp remove Test
+[19:45:56] [Server thread/INFO]: Lois_Bois issued server command: /warp list
+[19:45:59] [Server thread/INFO]: Lois_Bois issued server command: /warp Loyus
+[19:46:05] [Server thread/INFO]: Lois_Bois issued server command: /warp add Loyus2
+[19:46:07] [Server thread/INFO]: Lois_Bois issued server command: /warp Loyus
+[19:46:08] [Server thread/INFO]: Lois_Bois issued server command: /warp Loyus2
+[19:46:10] [Server thread/INFO]: Lois_Bois lost connection: Disconnected
+[19:46:10] [Server thread/INFO]: Lois_Bois left the game
+[19:46:15] [Server thread/INFO]: Stopping the server
+[19:46:15] [Server thread/INFO]: Stopping server
+[19:46:15] [Server thread/INFO]: [Warps] Disabling Warps v1.0.0
+[19:46:15] [Server thread/INFO]: [Warps]: Plugin gestoppt!
+[19:46:15] [Server thread/INFO]: [PermissionsEx] Disabling PermissionsEx v1.23.4
+[19:46:15] [Server thread/INFO]: Saving players
+[19:46:15] [Server thread/INFO]: Saving worlds
+[19:46:15] [Server thread/INFO]: Saving chunks for level 'world'/overworld
+[19:46:16] [Server thread/INFO]: Saving chunks for level 'world_nether'/the_nether
+[19:46:16] [Server thread/INFO]: Saving chunks for level 'world_the_end'/the_end

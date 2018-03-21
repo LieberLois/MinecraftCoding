@@ -1,0 +1,70 @@
+---- Minecraft Crash Report ----
+// Why did you do that?
+
+Time: 11/23/17 5:05 PM
+Description: Exception ticking world
+
+java.util.ConcurrentModificationException
+	at java.util.HashMap$HashIterator.nextNode(HashMap.java:1437)
+	at java.util.HashMap$KeyIterator.next(HashMap.java:1461)
+	at net.minecraft.server.v1_12_R1.PlayerChunkMap.flush(PlayerChunkMap.java:122)
+	at net.minecraft.server.v1_12_R1.WorldServer.doTick(WorldServer.java:308)
+	at net.minecraft.server.v1_12_R1.MinecraftServer.D(MinecraftServer.java:742)
+	at net.minecraft.server.v1_12_R1.DedicatedServer.D(DedicatedServer.java:371)
+	at net.minecraft.server.v1_12_R1.MinecraftServer.C(MinecraftServer.java:651)
+	at net.minecraft.server.v1_12_R1.MinecraftServer.run(MinecraftServer.java:555)
+	at java.lang.Thread.run(Thread.java:748)
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- Head --
+Thread: Server thread
+Stacktrace:
+	at java.util.HashMap$HashIterator.nextNode(HashMap.java:1437)
+	at java.util.HashMap$KeyIterator.next(HashMap.java:1461)
+	at net.minecraft.server.v1_12_R1.PlayerChunkMap.flush(PlayerChunkMap.java:122)
+	at net.minecraft.server.v1_12_R1.WorldServer.doTick(WorldServer.java:308)
+
+-- Affected level --
+Details:
+	Level name: world
+	All players: 2 total; [EntityPlayer['Waschlappen21'/167, l='world', x=-704.18, y=143.00, z=-1752.06](Waschlappen21 at -704.175956537165,143.0,-1752.058500721929), EntityPlayer['Theo_GM'/168, l='world', x=-705.67, y=115.93, z=-1747.67](Theo_GM at -705.6747044196246,115.9265691777538,-1747.665703713358)]
+	Chunk stats: ServerChunkCache: 576 Drop: 0
+	Level seed: -106912448124431190
+	Level generator: ID 01 - flat, ver 0. Features enabled: true
+	Level generator options: 
+	Level spawn location: World: (-583,4,-1660), Chunk: (at 9,0,4 in -37,-104; contains blocks -592,0,-1664 to -577,255,-1649), Region: (-2,-4; contains chunks -64,-128 to -33,-97, blocks -1024,0,-2048 to -513,255,-1537)
+	Level time: 99094069 game time, 1000 day time
+	Level dimension: 0
+	Level storage version: 0x04ABD - Anvil
+	Level weather: Rain time: 2527 (now: false), thunder time: 2527 (now: false)
+	Level game mode: Game mode: creative (ID 1). Hardcore: false. Cheats: false
+Stacktrace:
+	at net.minecraft.server.v1_12_R1.MinecraftServer.D(MinecraftServer.java:742)
+	at net.minecraft.server.v1_12_R1.DedicatedServer.D(DedicatedServer.java:371)
+	at net.minecraft.server.v1_12_R1.MinecraftServer.C(MinecraftServer.java:651)
+	at net.minecraft.server.v1_12_R1.MinecraftServer.run(MinecraftServer.java:555)
+	at java.lang.Thread.run(Thread.java:748)
+
+-- System Details --
+Details:
+	Minecraft Version: 1.12.2
+	Operating System: Linux (amd64) version 3.13.0-123-generic
+	Java Version: 1.8.0_131, Oracle Corporation
+	Java VM Version: Java HotSpot(TM) 64-Bit Server VM (mixed mode), Oracle Corporation
+	Memory: 603723696 bytes (575 MB) / 1056309248 bytes (1007 MB) up to 1056309248 bytes (1007 MB)
+	JVM Flags: 7 total; -Xms1024M -Xmx1024M -XX:+UseConcMarkSweepGC -XX:+UseParNewGC -XX:+CMSIncrementalPacing -XX:ParallelGCThreads=2 -XX:+AggressiveOpts
+	IntCache: cache: 0, tcache: 0, allocated: 0, tallocated: 0
+	CraftBukkit Information: 
+   Running: CraftBukkit version git-Bukkit-f46ccd7 (MC: 1.12.2) (Implementing API version 1.12.2-R0.1-SNAPSHOT) true
+   Plugins: { WorldEdit v6.1.8-SNAPSHOT;cd4729f com.sk89q.worldedit.bukkit.WorldEditPlugin [], SurvivalGames v0.6.6 com.thundergemios10.survivalgames.SurvivalGames [Double0Negative, ThunderGemios10], LoisPlugin v1.0.0 de.lois.plugin.main.Main [Loyus],}
+   Warnings: DEFAULT
+   Reload Count: 0
+   Threads: { TIMED_WAITING Timer-0: [java.lang.Object.wait(Native Method), java.util.TimerThread.mainLoop(Timer.java:552), java.util.TimerThread.run(Timer.java:505)], RUNNABLE Netty Epoll Server IO #2: [io.netty.channel.epoll.Native.epollWait0(Native Method), io.netty.channel.epoll.Native.epollWait(Native.java:122), io.netty.channel.epoll.EpollEventLoop.epollWait(EpollEventLoop.java:235), io.netty.channel.epoll.EpollEventLoop.run(EpollEventLoop.java:252), io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:858), java.lang.Thread.run(Thread.java:748)], RUNNABLE Netty Epoll Server IO #5: [io.netty.channel.epoll.Native.epollWait0(Native Method), io.netty.channel.epoll.Native.epollWait(Native.java:122), io.netty.channel.epoll.EpollEventLoop.epollWait(EpollEventLoop.java:235), io.netty.channel.epoll.EpollEventLoop.run(EpollEventLoop.java:252), io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:858), java.lang.Thread.run(Thread.java:748)], TIMED_WAITING pool-3-thread-1: [sun.misc.Unsafe.park(Native Method), java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:215), java.util.concurrent.SynchronousQueue$TransferStack.awaitFulfill(SynchronousQueue.java:460), java.util.concurrent.SynchronousQueue$TransferStack.transfer(SynchronousQueue.java:362), java.util.concurrent.SynchronousQueue.poll(SynchronousQueue.java:941), java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1066), java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1127), java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617), java.lang.Thread.run(Thread.java:748)], TIMED_WAITING Server Infinisleeper: [java.lang.Thread.sleep(Native Method), net.minecraft.server.v1_12_R1.DedicatedServer$1.run(DedicatedServer.java:59)], RUNNABLE Query Listener #1: [java.net.PlainDatagramSocketImpl.receive0(Native Method), java.net.AbstractPlainDatagramSocketImpl.receive(AbstractPlainDatagramSocketImpl.java:143), java.net.DatagramSocket.receive(DatagramSocket.java:812), net.minecraft.server.v1_12_R1.RemoteStatusListener.run(SourceFile:269), java.lang.Thread.run(Thread.java:748)], RUNNABLE Signal Dispatcher: [], RUNNABLE Netty Epoll Server IO #6: [io.netty.channel.epoll.Native.epollWait0(Native Method), io.netty.channel.epoll.Native.epollWait(Native.java:122), io.netty.channel.epoll.EpollEventLoop.epollWait(EpollEventLoop.java:235), io.netty.channel.epoll.EpollEventLoop.run(EpollEventLoop.java:252), io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:858), java.lang.Thread.run(Thread.java:748)], RUNNABLE Netty Epoll Server IO #3: [io.netty.channel.epoll.Native.epollWait0(Native Method), io.netty.channel.epoll.Native.epollWait(Native.java:122), io.netty.channel.epoll.EpollEventLoop.epollWait(EpollEventLoop.java:235), io.netty.channel.epoll.EpollEventLoop.run(EpollEventLoop.java:252), io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:858), java.lang.Thread.run(Thread.java:748)], WAITING Thread-3: [sun.misc.Unsafe.park(Native Method), java.util.concurrent.locks.LockSupport.park(LockSupport.java:175), java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2039), java.util.concurrent.LinkedBlockingQueue.take(LinkedBlockingQueue.java:442), com.mojang.util.QueueLogAppender.getNextLogEvent(QueueLogAppender.java:77), org.bukkit.craftbukkit.v1_12_R1.util.TerminalConsoleWriterThread.run(TerminalConsoleWriterThread.java:27), java.lang.Thread.run(Thread.java:748)], TIMED_WAITING Snooper Timer: [java.lang.Object.wait(Native Method), java.util.TimerThread.mainLoop(Timer.java:552), java.util.TimerThread.run(Timer.java:505)], TIMED_WAITING File IO Thread: [java.lang.Thread.sleep(Native Method), net.minecraft.server.v1_12_R1.FileIOThread.c(SourceFile:51), net.minecraft.server.v1_12_R1.FileIOThread.run(SourceFile:30), java.lang.Thread.run(Thread.java:748)], TIMED_WAITING threadDeathWatcher-2-1: [java.lang.Thread.sleep(Native Method), io.netty.util.ThreadDeathWatcher$Watcher.run(ThreadDeathWatcher.java:152), io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:138), java.lang.Thread.run(Thread.java:748)], WAITING Reference Handler: [java.lang.Object.wait(Native Method), java.lang.Object.wait(Object.java:502), java.lang.ref.Reference.tryHandlePending(Reference.java:191), java.lang.ref.Reference$ReferenceHandler.run(Reference.java:153)], RUNNABLE DestroyJavaVM: [], RUNNABLE Netty Epoll Server IO #4: [io.netty.channel.epoll.Native.epollWait0(Native Method), io.netty.channel.epoll.Native.epollWait(Native.java:122), io.netty.channel.epoll.EpollEventLoop.epollWait(EpollEventLoop.java:235), io.netty.channel.epoll.EpollEventLoop.run(EpollEventLoop.java:252), io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:858), java.lang.Thread.run(Thread.java:748)], WAITING Finalizer: [java.lang.Object.wait(Native Method), java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:143), java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:164), java.lang.ref.Finalizer$FinalizerThread.run(Finalizer.java:209)], RUNNABLE Netty Epoll Server IO #0: [io.netty.channel.epoll.Native.epollWait0(Native Method), io.netty.channel.epoll.Native.epollWait(Native.java:122), io.netty.channel.epoll.EpollEventLoop.epollWait(EpollEventLoop.java:235), io.netty.channel.epoll.EpollEventLoop.run(EpollEventLoop.java:252), io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:858), java.lang.Thread.run(Thread.java:748)], RUNNABLE Server console handler: [java.io.FileInputStream.readBytes(Native Method), java.io.FileInputStream.read(FileInputStream.java:255), java.io.BufferedInputStream.fill(BufferedInputStream.java:246), java.io.BufferedInputStream.read(BufferedInputStream.java:265), org.bukkit.craftbukkit.libs.jline.internal.NonBlockingInputStream.read(NonBlockingInputStream.java:248), org.bukkit.craftbukkit.libs.jline.internal.InputStreamReader.read(InputStreamReader.java:261), org.bukkit.craftbukkit.libs.jline.internal.InputStreamReader.read(InputStreamReader.java:198), org.bukkit.craftbukkit.libs.jline.console.ConsoleReader.readCharacter(ConsoleReader.java:2145), org.bukkit.craftbukkit.libs.jline.console.ConsoleReader.readLineSimple(ConsoleReader.java:3183), org.bukkit.craftbukkit.libs.jline.console.ConsoleReader.readLine(ConsoleReader.java:2333), org.bukkit.craftbukkit.libs.jline.console.ConsoleReader.readLine(ConsoleReader.java:2269), org.bukkit.craftbukkit.libs.jline.console.ConsoleReader.readLine(ConsoleReader.java:2257), net.minecraft.server.v1_12_R1.DedicatedServer$2.run(DedicatedServer.java:86)], TIMED_WAITING Server Watchdog: [java.lang.Thread.sleep(Native Method), net.minecraft.server.v1_12_R1.ThreadWatchdog.run(SourceFile:73), java.lang.Thread.run(Thread.java:748)], RUNNABLE Netty Epoll Server IO #1: [io.netty.channel.epoll.Native.epollWait0(Native Method), io.netty.channel.epoll.Native.epollWait(Native.java:122), io.netty.channel.epoll.EpollEventLoop.epollWait(EpollEventLoop.java:235), io.netty.channel.epoll.EpollEventLoop.run(EpollEventLoop.java:252), io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:858), java.lang.Thread.run(Thread.java:748)], RUNNABLE Server thread: [java.lang.Thread.dumpThreads(Native Method), java.lang.Thread.getAllStackTraces(Thread.java:1610), org.bukkit.craftbukkit.v1_12_R1.CraftCrashReport.call(CraftCrashReport.java:30), net.minecraft.server.v1_12_R1.CrashReportSystemDetails.a(SourceFile:78), net.minecraft.server.v1_12_R1.CrashReport.h(CrashReport.java:128), net.minecraft.server.v1_12_R1.CrashReport.<init>(CrashReport.java:35), net.minecraft.server.v1_12_R1.CrashReport.a(CrashReport.java:322), net.minecraft.server.v1_12_R1.MinecraftServer.D(MinecraftServer.java:744), net.minecraft.server.v1_12_R1.DedicatedServer.D(DedicatedServer.java:371), net.minecraft.server.v1_12_R1.MinecraftServer.C(MinecraftServer.java:651), net.minecraft.server.v1_12_R1.MinecraftServer.run(MinecraftServer.java:555), java.lang.Thread.run(Thread.java:748)], RUNNABLE Netty Epoll Server IO #7: [io.netty.channel.epoll.Native.epollWait0(Native Method), io.netty.channel.epoll.Native.epollWait(Native.java:122), io.netty.channel.epoll.EpollEventLoop.epollWait(EpollEventLoop.java:235), io.netty.channel.epoll.EpollEventLoop.run(EpollEventLoop.java:252), io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:858), java.lang.Thread.run(Thread.java:748)], WAITING Chunk I/O Executor Thread-1: [sun.misc.Unsafe.park(Native Method), java.util.concurrent.locks.LockSupport.park(LockSupport.java:175), java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2039), java.util.concurrent.LinkedBlockingQueue.take(LinkedBlockingQueue.java:442), java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1067), java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1127), java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617), java.lang.Thread.run(Thread.java:748)],}
+   Recent tasks from 1279064-1279094{SurvivalGames:com.thundergemios10.survivalgames.logging.QueueManager$DataDumper@1279039,}
+	Profiler Position: N/A (disabled)
+	Player Count: 2 / 4; [EntityPlayer['Waschlappen21'/167, l='world', x=-704.18, y=143.00, z=-1752.06](Waschlappen21 at -704.175956537165,143.0,-1752.058500721929), EntityPlayer['Theo_GM'/168, l='world', x=-705.67, y=115.93, z=-1747.67](Theo_GM at -705.6747044196246,115.9265691777538,-1747.665703713358)]
+	Is Modded: Definitely; Server brand changed to 'CraftBukkit'
+	Type: Dedicated Server (map_server.txt)

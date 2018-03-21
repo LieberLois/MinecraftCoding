@@ -1,0 +1,256 @@
+[23:13:57] [Server thread/INFO]: Starting minecraft server version 1.12.2
+[23:13:57] [Server thread/INFO]: Loading properties
+[23:13:57] [Server thread/INFO]: Default game type: SURVIVAL
+[23:13:57] [Server thread/INFO]: Generating keypair
+[23:13:57] [Server thread/INFO]: Starting Minecraft server on *:25565
+[23:13:57] [Server thread/INFO]: Using default channel type
+[23:13:57] [Server thread/INFO]: This server is running CraftBukkit version git-Bukkit-53fccdf (MC: 1.12.2) (Implementing API version 1.12.2-R0.1-SNAPSHOT)
+[23:13:57] [Server thread/INFO]: [WorldEdit] Loading WorldEdit v6.1.8-SNAPSHOT;cd4729f
+[23:13:57] [Server thread/INFO]: [LoisPlugin] Loading LoisPlugin v1.0.0
+[23:13:57] [Server thread/INFO]: Preparing level "world"
+[23:13:58] [Server thread/INFO]: Preparing start region for level 0 (Seed: 4022918470164476825)
+[23:13:59] [Server thread/INFO]: Preparing start region for level 1 (Seed: 4022918470164476825)
+[23:13:59] [Server thread/INFO]: Preparing start region for level 2 (Seed: 4022918470164476825)
+[23:13:59] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v6.1.8-SNAPSHOT;cd4729f
+[23:13:59] [Server thread/INFO]: WEPIF: Using the Bukkit Permissions API.
+[23:14:00] [Server thread/INFO]: [WorldEdit] Using com.sk89q.worldedit.bukkit.adapter.impl.Spigot_v1_12_R2 as the Bukkit adapter
+[23:14:00] [Server thread/INFO]: [LoisPlugin] Enabling LoisPlugin v1.0.0
+[23:14:00] [Server thread/INFO]: [LoisPlugin] Plugin geladen!
+[23:14:00] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[23:14:00] [Server thread/INFO]: Done (2,319s)! For help, type "help" or "?"
+[23:14:53] [Server thread/INFO]: com.mojang.authlib.GameProfile@2e4949ff[id=<null>,name=Lois_Bois,properties={},legacy=false] (/127.0.0.1:62600) lost connection: Disconnected
+[23:15:51] [Server thread/INFO]: com.mojang.authlib.GameProfile@14490eaa[id=<null>,name=Lois_Bois,properties={},legacy=false] (/127.0.0.1:62610) lost connection: Internal Exception: java.io.IOException: Eine vorhandene Verbindung wurde vom Remotehost geschlossen
+[23:16:56] [User Authenticator #2/INFO]: UUID of player Lois_Bois is f7cca8b5-510d-45a0-81f5-5654c7dc0b90
+[23:16:56] [Server thread/INFO]: Lois_Bois[/127.0.0.1:62758] logged in with entity id 251 at ([world]57.25610023933811, 65.0, 84.69999998807907)
+[23:19:36] [Server thread/INFO]: Lois_Bois issued server command: /backpack
+[23:21:24] [Server thread/INFO]: Lois_Bois issued server command: /rl
+[23:21:24] [Server thread/INFO]: Lois_Bois: [0;31;1mPlease note that this command is not supported and may cause issues when using some plugins.[m
+[23:21:24] [Server thread/INFO]: Lois_Bois: [0;31;1mIf you encounter any issues please use the /stop command to restart your server.[m
+[23:21:24] [Server thread/INFO]: [LoisPlugin] Disabling LoisPlugin v1.0.0
+[23:21:24] [Server thread/INFO]: [LoisPlugin] Plugin gestoppt!
+[23:21:24] [Server thread/INFO]: [WorldEdit] Disabling WorldEdit v6.1.8-SNAPSHOT;cd4729f
+[23:21:24] [Server thread/INFO]: [WorldEdit] Loading WorldEdit v6.1.8-SNAPSHOT;cd4729f
+[23:21:24] [Server thread/INFO]: [LoisPlugin] Loading LoisPlugin v1.0.0
+[23:21:24] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v6.1.8-SNAPSHOT;cd4729f
+[23:21:25] [Server thread/INFO]: WEPIF: Using the Bukkit Permissions API.
+[23:21:25] [Server thread/INFO]: [WorldEdit] Using com.sk89q.worldedit.bukkit.adapter.impl.Spigot_v1_12_R2 as the Bukkit adapter
+[23:21:25] [Server thread/INFO]: [LoisPlugin] Enabling LoisPlugin v1.0.0
+[23:21:25] [Server thread/INFO]: [LoisPlugin] Plugin geladen!
+[23:21:25] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[23:21:25] [Server thread/INFO]: Lois_Bois: [0;32;1mReload complete.[m
+[23:21:35] [Server thread/INFO]: Lois_Bois issued server command: /backpack
+[23:23:23] [Server thread/INFO]: Lois_Bois issued server command: /rl
+[23:23:23] [Server thread/INFO]: Lois_Bois: [0;31;1mPlease note that this command is not supported and may cause issues when using some plugins.[m
+[23:23:23] [Server thread/INFO]: Lois_Bois: [0;31;1mIf you encounter any issues please use the /stop command to restart your server.[m
+[23:23:23] [Server thread/INFO]: [LoisPlugin] Disabling LoisPlugin v1.0.0
+[23:23:23] [Server thread/INFO]: [LoisPlugin] Plugin gestoppt!
+[23:23:23] [Server thread/INFO]: [WorldEdit] Disabling WorldEdit v6.1.8-SNAPSHOT;cd4729f
+[23:23:24] [Server thread/INFO]: [WorldEdit] Loading WorldEdit v6.1.8-SNAPSHOT;cd4729f
+[23:23:24] [Server thread/INFO]: [LoisPlugin] Loading LoisPlugin v1.0.0
+[23:23:24] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v6.1.8-SNAPSHOT;cd4729f
+[23:23:24] [Server thread/INFO]: WEPIF: Using the Bukkit Permissions API.
+[23:23:24] [Server thread/INFO]: [WorldEdit] Using com.sk89q.worldedit.bukkit.adapter.impl.Spigot_v1_12_R2 as the Bukkit adapter
+[23:23:24] [Server thread/INFO]: [LoisPlugin] Enabling LoisPlugin v1.0.0
+[23:23:24] [Server thread/INFO]: [LoisPlugin] Plugin geladen!
+[23:23:24] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[23:23:24] [Server thread/INFO]: Lois_Bois: [0;32;1mReload complete.[m
+[23:23:48] [Server thread/ERROR]: Could not pass event PlayerInteractEvent to LoisPlugin v1.0.0
+org.bukkit.event.EventException: null
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:298) ~[spigot.jar:git-Bukkit-53fccdf]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:62) ~[spigot.jar:git-Bukkit-53fccdf]
+	at org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:498) [spigot.jar:git-Bukkit-53fccdf]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:483) [spigot.jar:git-Bukkit-53fccdf]
+	at org.bukkit.craftbukkit.v1_12_R1.event.CraftEventFactory.callPlayerInteractEvent(CraftEventFactory.java:234) [spigot.jar:git-Bukkit-53fccdf]
+	at org.bukkit.craftbukkit.v1_12_R1.event.CraftEventFactory.callPlayerInteractEvent(CraftEventFactory.java:201) [spigot.jar:git-Bukkit-53fccdf]
+	at org.bukkit.craftbukkit.v1_12_R1.event.CraftEventFactory.callPlayerInteractEvent(CraftEventFactory.java:197) [spigot.jar:git-Bukkit-53fccdf]
+	at net.minecraft.server.v1_12_R1.PlayerConnection.a(PlayerConnection.java:955) [spigot.jar:git-Bukkit-53fccdf]
+	at net.minecraft.server.v1_12_R1.PacketPlayInBlockPlace.a(SourceFile:32) [spigot.jar:git-Bukkit-53fccdf]
+	at net.minecraft.server.v1_12_R1.PacketPlayInBlockPlace.a(SourceFile:9) [spigot.jar:git-Bukkit-53fccdf]
+	at net.minecraft.server.v1_12_R1.PlayerConnectionUtils$1.run(SourceFile:13) [spigot.jar:git-Bukkit-53fccdf]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source) [?:1.8.0_131]
+	at java.util.concurrent.FutureTask.run(Unknown Source) [?:1.8.0_131]
+	at net.minecraft.server.v1_12_R1.SystemUtils.a(SourceFile:46) [spigot.jar:git-Bukkit-53fccdf]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.D(MinecraftServer.java:696) [spigot.jar:git-Bukkit-53fccdf]
+	at net.minecraft.server.v1_12_R1.DedicatedServer.D(DedicatedServer.java:371) [spigot.jar:git-Bukkit-53fccdf]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.C(MinecraftServer.java:651) [spigot.jar:git-Bukkit-53fccdf]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.run(MinecraftServer.java:555) [spigot.jar:git-Bukkit-53fccdf]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_131]
+Caused by: java.lang.NullPointerException
+	at de.lois.plugin.listener.BackpackListener.onOpenBackpack(BackpackListener.java:33) ~[?:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_131]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source) ~[?:1.8.0_131]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source) ~[?:1.8.0_131]
+	at java.lang.reflect.Method.invoke(Unknown Source) ~[?:1.8.0_131]
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:296) ~[spigot.jar:git-Bukkit-53fccdf]
+	... 18 more
+[23:23:48] [Server thread/ERROR]: Could not pass event PlayerInteractEvent to LoisPlugin v1.0.0
+org.bukkit.event.EventException: null
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:298) ~[spigot.jar:git-Bukkit-53fccdf]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:62) ~[spigot.jar:git-Bukkit-53fccdf]
+	at org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:498) [spigot.jar:git-Bukkit-53fccdf]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:483) [spigot.jar:git-Bukkit-53fccdf]
+	at org.bukkit.craftbukkit.v1_12_R1.event.CraftEventFactory.callPlayerInteractEvent(CraftEventFactory.java:234) [spigot.jar:git-Bukkit-53fccdf]
+	at org.bukkit.craftbukkit.v1_12_R1.event.CraftEventFactory.callPlayerInteractEvent(CraftEventFactory.java:201) [spigot.jar:git-Bukkit-53fccdf]
+	at org.bukkit.craftbukkit.v1_12_R1.event.CraftEventFactory.callPlayerInteractEvent(CraftEventFactory.java:197) [spigot.jar:git-Bukkit-53fccdf]
+	at net.minecraft.server.v1_12_R1.PlayerConnection.a(PlayerConnection.java:955) [spigot.jar:git-Bukkit-53fccdf]
+	at net.minecraft.server.v1_12_R1.PacketPlayInBlockPlace.a(SourceFile:32) [spigot.jar:git-Bukkit-53fccdf]
+	at net.minecraft.server.v1_12_R1.PacketPlayInBlockPlace.a(SourceFile:9) [spigot.jar:git-Bukkit-53fccdf]
+	at net.minecraft.server.v1_12_R1.PlayerConnectionUtils$1.run(SourceFile:13) [spigot.jar:git-Bukkit-53fccdf]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source) [?:1.8.0_131]
+	at java.util.concurrent.FutureTask.run(Unknown Source) [?:1.8.0_131]
+	at net.minecraft.server.v1_12_R1.SystemUtils.a(SourceFile:46) [spigot.jar:git-Bukkit-53fccdf]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.D(MinecraftServer.java:696) [spigot.jar:git-Bukkit-53fccdf]
+	at net.minecraft.server.v1_12_R1.DedicatedServer.D(DedicatedServer.java:371) [spigot.jar:git-Bukkit-53fccdf]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.C(MinecraftServer.java:651) [spigot.jar:git-Bukkit-53fccdf]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.run(MinecraftServer.java:555) [spigot.jar:git-Bukkit-53fccdf]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_131]
+Caused by: java.lang.NullPointerException
+	at de.lois.plugin.listener.BackpackListener.onOpenBackpack(BackpackListener.java:33) ~[?:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_131]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source) ~[?:1.8.0_131]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source) ~[?:1.8.0_131]
+	at java.lang.reflect.Method.invoke(Unknown Source) ~[?:1.8.0_131]
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:296) ~[spigot.jar:git-Bukkit-53fccdf]
+	... 18 more
+[23:23:49] [Server thread/ERROR]: Could not pass event PlayerInteractEvent to LoisPlugin v1.0.0
+org.bukkit.event.EventException: null
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:298) ~[spigot.jar:git-Bukkit-53fccdf]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:62) ~[spigot.jar:git-Bukkit-53fccdf]
+	at org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:498) [spigot.jar:git-Bukkit-53fccdf]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:483) [spigot.jar:git-Bukkit-53fccdf]
+	at org.bukkit.craftbukkit.v1_12_R1.event.CraftEventFactory.callPlayerInteractEvent(CraftEventFactory.java:234) [spigot.jar:git-Bukkit-53fccdf]
+	at net.minecraft.server.v1_12_R1.PlayerInteractManager.a(PlayerInteractManager.java:458) [spigot.jar:git-Bukkit-53fccdf]
+	at net.minecraft.server.v1_12_R1.PlayerConnection.a(PlayerConnection.java:918) [spigot.jar:git-Bukkit-53fccdf]
+	at net.minecraft.server.v1_12_R1.PacketPlayInUseItem.a(SourceFile:55) [spigot.jar:git-Bukkit-53fccdf]
+	at net.minecraft.server.v1_12_R1.PacketPlayInUseItem.a(SourceFile:11) [spigot.jar:git-Bukkit-53fccdf]
+	at net.minecraft.server.v1_12_R1.PlayerConnectionUtils$1.run(SourceFile:13) [spigot.jar:git-Bukkit-53fccdf]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source) [?:1.8.0_131]
+	at java.util.concurrent.FutureTask.run(Unknown Source) [?:1.8.0_131]
+	at net.minecraft.server.v1_12_R1.SystemUtils.a(SourceFile:46) [spigot.jar:git-Bukkit-53fccdf]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.D(MinecraftServer.java:696) [spigot.jar:git-Bukkit-53fccdf]
+	at net.minecraft.server.v1_12_R1.DedicatedServer.D(DedicatedServer.java:371) [spigot.jar:git-Bukkit-53fccdf]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.C(MinecraftServer.java:651) [spigot.jar:git-Bukkit-53fccdf]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.run(MinecraftServer.java:555) [spigot.jar:git-Bukkit-53fccdf]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_131]
+Caused by: java.lang.NullPointerException
+	at de.lois.plugin.listener.BackpackListener.onOpenBackpack(BackpackListener.java:33) ~[?:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_131]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source) ~[?:1.8.0_131]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source) ~[?:1.8.0_131]
+	at java.lang.reflect.Method.invoke(Unknown Source) ~[?:1.8.0_131]
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:296) ~[spigot.jar:git-Bukkit-53fccdf]
+	... 17 more
+[23:23:50] [Server thread/ERROR]: Could not pass event PlayerInteractEvent to LoisPlugin v1.0.0
+org.bukkit.event.EventException: null
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:298) ~[spigot.jar:git-Bukkit-53fccdf]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:62) ~[spigot.jar:git-Bukkit-53fccdf]
+	at org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:498) [spigot.jar:git-Bukkit-53fccdf]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:483) [spigot.jar:git-Bukkit-53fccdf]
+	at org.bukkit.craftbukkit.v1_12_R1.event.CraftEventFactory.callPlayerInteractEvent(CraftEventFactory.java:234) [spigot.jar:git-Bukkit-53fccdf]
+	at net.minecraft.server.v1_12_R1.PlayerInteractManager.a(PlayerInteractManager.java:458) [spigot.jar:git-Bukkit-53fccdf]
+	at net.minecraft.server.v1_12_R1.PlayerConnection.a(PlayerConnection.java:918) [spigot.jar:git-Bukkit-53fccdf]
+	at net.minecraft.server.v1_12_R1.PacketPlayInUseItem.a(SourceFile:55) [spigot.jar:git-Bukkit-53fccdf]
+	at net.minecraft.server.v1_12_R1.PacketPlayInUseItem.a(SourceFile:11) [spigot.jar:git-Bukkit-53fccdf]
+	at net.minecraft.server.v1_12_R1.PlayerConnectionUtils$1.run(SourceFile:13) [spigot.jar:git-Bukkit-53fccdf]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source) [?:1.8.0_131]
+	at java.util.concurrent.FutureTask.run(Unknown Source) [?:1.8.0_131]
+	at net.minecraft.server.v1_12_R1.SystemUtils.a(SourceFile:46) [spigot.jar:git-Bukkit-53fccdf]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.D(MinecraftServer.java:696) [spigot.jar:git-Bukkit-53fccdf]
+	at net.minecraft.server.v1_12_R1.DedicatedServer.D(DedicatedServer.java:371) [spigot.jar:git-Bukkit-53fccdf]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.C(MinecraftServer.java:651) [spigot.jar:git-Bukkit-53fccdf]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.run(MinecraftServer.java:555) [spigot.jar:git-Bukkit-53fccdf]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_131]
+Caused by: java.lang.NullPointerException
+	at de.lois.plugin.listener.BackpackListener.onOpenBackpack(BackpackListener.java:33) ~[?:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_131]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source) ~[?:1.8.0_131]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source) ~[?:1.8.0_131]
+	at java.lang.reflect.Method.invoke(Unknown Source) ~[?:1.8.0_131]
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:296) ~[spigot.jar:git-Bukkit-53fccdf]
+	... 17 more
+[23:23:51] [Server thread/ERROR]: Could not pass event PlayerInteractEvent to LoisPlugin v1.0.0
+org.bukkit.event.EventException: null
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:298) ~[spigot.jar:git-Bukkit-53fccdf]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:62) ~[spigot.jar:git-Bukkit-53fccdf]
+	at org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:498) [spigot.jar:git-Bukkit-53fccdf]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:483) [spigot.jar:git-Bukkit-53fccdf]
+	at org.bukkit.craftbukkit.v1_12_R1.event.CraftEventFactory.callPlayerInteractEvent(CraftEventFactory.java:234) [spigot.jar:git-Bukkit-53fccdf]
+	at net.minecraft.server.v1_12_R1.PlayerInteractManager.a(PlayerInteractManager.java:458) [spigot.jar:git-Bukkit-53fccdf]
+	at net.minecraft.server.v1_12_R1.PlayerConnection.a(PlayerConnection.java:918) [spigot.jar:git-Bukkit-53fccdf]
+	at net.minecraft.server.v1_12_R1.PacketPlayInUseItem.a(SourceFile:55) [spigot.jar:git-Bukkit-53fccdf]
+	at net.minecraft.server.v1_12_R1.PacketPlayInUseItem.a(SourceFile:11) [spigot.jar:git-Bukkit-53fccdf]
+	at net.minecraft.server.v1_12_R1.PlayerConnectionUtils$1.run(SourceFile:13) [spigot.jar:git-Bukkit-53fccdf]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source) [?:1.8.0_131]
+	at java.util.concurrent.FutureTask.run(Unknown Source) [?:1.8.0_131]
+	at net.minecraft.server.v1_12_R1.SystemUtils.a(SourceFile:46) [spigot.jar:git-Bukkit-53fccdf]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.D(MinecraftServer.java:696) [spigot.jar:git-Bukkit-53fccdf]
+	at net.minecraft.server.v1_12_R1.DedicatedServer.D(DedicatedServer.java:371) [spigot.jar:git-Bukkit-53fccdf]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.C(MinecraftServer.java:651) [spigot.jar:git-Bukkit-53fccdf]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.run(MinecraftServer.java:555) [spigot.jar:git-Bukkit-53fccdf]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_131]
+Caused by: java.lang.NullPointerException
+	at de.lois.plugin.listener.BackpackListener.onOpenBackpack(BackpackListener.java:33) ~[?:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_131]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source) ~[?:1.8.0_131]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source) ~[?:1.8.0_131]
+	at java.lang.reflect.Method.invoke(Unknown Source) ~[?:1.8.0_131]
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:296) ~[spigot.jar:git-Bukkit-53fccdf]
+	... 17 more
+[23:23:52] [Server thread/ERROR]: Could not pass event PlayerInteractEvent to LoisPlugin v1.0.0
+org.bukkit.event.EventException: null
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:298) ~[spigot.jar:git-Bukkit-53fccdf]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:62) ~[spigot.jar:git-Bukkit-53fccdf]
+	at org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:498) [spigot.jar:git-Bukkit-53fccdf]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:483) [spigot.jar:git-Bukkit-53fccdf]
+	at org.bukkit.craftbukkit.v1_12_R1.event.CraftEventFactory.callPlayerInteractEvent(CraftEventFactory.java:234) [spigot.jar:git-Bukkit-53fccdf]
+	at net.minecraft.server.v1_12_R1.PlayerInteractManager.a(PlayerInteractManager.java:458) [spigot.jar:git-Bukkit-53fccdf]
+	at net.minecraft.server.v1_12_R1.PlayerConnection.a(PlayerConnection.java:918) [spigot.jar:git-Bukkit-53fccdf]
+	at net.minecraft.server.v1_12_R1.PacketPlayInUseItem.a(SourceFile:55) [spigot.jar:git-Bukkit-53fccdf]
+	at net.minecraft.server.v1_12_R1.PacketPlayInUseItem.a(SourceFile:11) [spigot.jar:git-Bukkit-53fccdf]
+	at net.minecraft.server.v1_12_R1.PlayerConnectionUtils$1.run(SourceFile:13) [spigot.jar:git-Bukkit-53fccdf]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source) [?:1.8.0_131]
+	at java.util.concurrent.FutureTask.run(Unknown Source) [?:1.8.0_131]
+	at net.minecraft.server.v1_12_R1.SystemUtils.a(SourceFile:46) [spigot.jar:git-Bukkit-53fccdf]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.D(MinecraftServer.java:696) [spigot.jar:git-Bukkit-53fccdf]
+	at net.minecraft.server.v1_12_R1.DedicatedServer.D(DedicatedServer.java:371) [spigot.jar:git-Bukkit-53fccdf]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.C(MinecraftServer.java:651) [spigot.jar:git-Bukkit-53fccdf]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.run(MinecraftServer.java:555) [spigot.jar:git-Bukkit-53fccdf]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_131]
+Caused by: java.lang.NullPointerException
+	at de.lois.plugin.listener.BackpackListener.onOpenBackpack(BackpackListener.java:33) ~[?:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_131]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source) ~[?:1.8.0_131]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source) ~[?:1.8.0_131]
+	at java.lang.reflect.Method.invoke(Unknown Source) ~[?:1.8.0_131]
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:296) ~[spigot.jar:git-Bukkit-53fccdf]
+	... 17 more
+[23:23:52] [Server thread/ERROR]: Could not pass event PlayerInteractEvent to LoisPlugin v1.0.0
+org.bukkit.event.EventException: null
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:298) ~[spigot.jar:git-Bukkit-53fccdf]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:62) ~[spigot.jar:git-Bukkit-53fccdf]
+	at org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:498) [spigot.jar:git-Bukkit-53fccdf]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:483) [spigot.jar:git-Bukkit-53fccdf]
+	at org.bukkit.craftbukkit.v1_12_R1.event.CraftEventFactory.callPlayerInteractEvent(CraftEventFactory.java:234) [spigot.jar:git-Bukkit-53fccdf]
+	at net.minecraft.server.v1_12_R1.PlayerInteractManager.a(PlayerInteractManager.java:458) [spigot.jar:git-Bukkit-53fccdf]
+	at net.minecraft.server.v1_12_R1.PlayerConnection.a(PlayerConnection.java:918) [spigot.jar:git-Bukkit-53fccdf]
+	at net.minecraft.server.v1_12_R1.PacketPlayInUseItem.a(SourceFile:55) [spigot.jar:git-Bukkit-53fccdf]
+	at net.minecraft.server.v1_12_R1.PacketPlayInUseItem.a(SourceFile:11) [spigot.jar:git-Bukkit-53fccdf]
+	at net.minecraft.server.v1_12_R1.PlayerConnectionUtils$1.run(SourceFile:13) [spigot.jar:git-Bukkit-53fccdf]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source) [?:1.8.0_131]
+	at java.util.concurrent.FutureTask.run(Unknown Source) [?:1.8.0_131]
+	at net.minecraft.server.v1_12_R1.SystemUtils.a(SourceFile:46) [spigot.jar:git-Bukkit-53fccdf]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.D(MinecraftServer.java:696) [spigot.jar:git-Bukkit-53fccdf]
+	at net.minecraft.server.v1_12_R1.DedicatedServer.D(DedicatedServer.java:371) [spigot.jar:git-Bukkit-53fccdf]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.C(MinecraftServer.java:651) [spigot.jar:git-Bukkit-53fccdf]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.run(MinecraftServer.java:555) [spigot.jar:git-Bukkit-53fccdf]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_131]
+Caused by: java.lang.NullPointerException
+	at de.lois.plugin.listener.BackpackListener.onOpenBackpack(BackpackListener.java:33) ~[?:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_131]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source) ~[?:1.8.0_131]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source) ~[?:1.8.0_131]
+	at java.lang.reflect.Method.invoke(Unknown Source) ~[?:1.8.0_131]
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:296) ~[spigot.jar:git-Bukkit-53fccdf]
+	... 17 more
+[23:25:53] [Server thread/INFO]: Lois_Bois lost connection: Disconnected
+[23:25:53] [Server thread/INFO]: Lois_Bois left the game

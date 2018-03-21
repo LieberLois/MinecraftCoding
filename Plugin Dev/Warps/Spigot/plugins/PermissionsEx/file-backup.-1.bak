@@ -1,0 +1,29 @@
+groups:
+  Guest:
+    default: true
+    prefix: '[Guest] '
+    build: false
+    permissions:
+    - warps.list
+  Mod:
+    default: false
+    prefix: '&1[&9Mod&1]&f '
+    inheritance:
+    - VIP
+    - Member
+    - Guest
+    build: true
+    permissions:
+    - warps.warp
+  Admin:
+    default: false
+    prefix: '&9[&bAdmin&9]&f '
+    inheritance:
+    - Mod
+    - VIP
+    - Member
+    - Guest
+    build: true
+    permissions:
+    - warps.setwarp
+    - warps.delwarp
